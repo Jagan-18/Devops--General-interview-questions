@@ -8,6 +8,15 @@ As a DevOps Engineer, I follow a structured approach:
 4. **Collaboration**: I keep stakeholders updated via stand-ups or Slack, and collaborate through Git (branches, PRs) for transparency.
 5. **Validate & Automate**: I validate the solution using test cases, monitoring, or dry runs, and aim to automate the process where possible.
 6. **Deploy & Document**: Once verified, I deploy through CI/CD, and document the changes for future reference.
-
 ---
+### 2. How will you troubleshoot a 403 error code?**
+A 403 error means **"Forbidden"** — the server understands the request but refuses to authorize it. Here's how I troubleshoot it:
+1. **Check Permissions**: Ensure the user, role, or service has the correct permissions (e.g., IAM policies, file/folder access, S3 bucket policies, etc.).
+2. **Authentication vs Authorization**: Confirm that authentication is successful, and the user is **authorized** to access the resource.
+3. **Web Server Config**: Check NGINX/Apache configs — look for denied locations, IP restrictions, or directory access settings.
+4. **AWS Services**: For services like S3 or API Gateway, I review **bucket policies**, **resource policies**, and **ACLs** for missing or incorrect rules.
+5. **Firewall/Security Groups**: Check if traffic is being blocked at the **NACL**, **Security Group**, or **WAF** level.
+6. **Application Logs**: Finally, I check app/server logs to get more specific error details.
+---
+
 
