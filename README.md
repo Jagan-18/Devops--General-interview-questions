@@ -32,13 +32,16 @@ For example, if I'm using **GitHub Actions, GitLab CI, or Jenkins**, I do the fo
 4. **Custom Notifications**:
    * I also use a **notification script or post-job step** that sends an alert via Gmail API, webhook, or any messaging service.
 This way, I ensure that any failure, especially during non-working hours, triggers a real-time alert so the right person can act quickly."
-
 ---
-
 ###  4. Any major challenges you’ve faced while working as a DevOps engineer?
 **Yes, one major challenge I faced was infrastructure drift. In a fast-moving project, multiple team members made manual changes directly in AWS, which led to inconsistent environments and debugging issues.**
 - To fix it, I implemented **Terraform for Infrastructure as Code**, enforced changes only through **CI/CD pipelines**, and stored state in **remote S3 with locking via DynamoDB**. I also integrated `checkov` to scan for misconfigurations early.
 - This brought consistency, reduced manual intervention, and made our infrastructure fully auditable.
+---
+## 5. Why should we hire you?
+**You should hire me because I bring strong hands-on experience in DevOps, especially with tools like Terraform, Kubernetes, AWS, and CI/CD pipelines..ect.**
+- I don’t just deploy infrastructure — I make it **scalable, secure, and automated**. I’ve solved real-world challenges like infrastructure drift, failed deployments, and production outages by applying best practices and automation.
+- I'm proactive, reliable, and I focus on building systems that are **robust, repeatable, and easy to manage** — which directly supports faster, safer delivery for the team."
 
 ---
 
