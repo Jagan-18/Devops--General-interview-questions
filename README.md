@@ -18,5 +18,23 @@ A 403 error means **"Forbidden"** — the server understands the request but ref
 5. **Firewall/Security Groups**: Check if traffic is being blocked at the **NACL**, **Security Group**, or **WAF** level.
 6. **Application Logs**: Finally, I check app/server logs to get more specific error details.
 ---
+### 3. How would you set up notifications when a production pipeline fails?
+**"To get alerts when a production pipeline fails, I integrate notification systems with my CI/CD tool.**
+For example, if I'm using **GitHub Actions, GitLab CI, or Jenkins**, I do the following:
+1. **Email Notifications**:
+   * Configure the pipeline or job to send email alerts using SMTP settings or built-in notification plugins (like Jenkins Email Extension plugin).
+   * Set triggers for failure or unstable builds only.
+2. **Slack or Teams Alerts**:
+   * I integrate the pipeline with Slack or MS Teams using **webhooks**.
+   * A failed job triggers a message to a specific channel.
+3. **PagerDuty / Opsgenie Integration**:
+   * For production-critical jobs, I set up alerts to **PagerDuty or Opsgenie**, which can escalate to on-call engineers with SMS or call.
+4. **Custom Notifications**:
+   * I also use a **notification script or post-job step** that sends an alert via Gmail API, webhook, or any messaging service.
+This way, I ensure that any failure, especially during non-working hours, triggers a real-time alert so the right person can act quickly."
+
+---
+
+✅ This shows real-world awareness, monitoring discipline, and reliability engineering mindset — perfect for a DevOps/SRE role. Let me know your CI/CD tool and I can tailor this answer exactly!
 
 
