@@ -35,5 +35,15 @@ This way, I ensure that any failure, especially during non-working hours, trigge
 
 ---
 
+###  4. Any major challenges you’ve faced while working as a DevOps engineer?
+**"Yes, one major challenge I faced was infrastructure drift. In a fast-moving project, multiple team members made manual changes directly in AWS, which led to inconsistent environments and debugging issues.**
+- To fix it, I implemented **Terraform for Infrastructure as Code**, enforced changes only through **CI/CD pipelines**, and stored state in **remote S3 with locking via DynamoDB**. I also integrated `checkov` to scan for misconfigurations early.
+- This brought consistency, reduced manual intervention, and made our infrastructure fully auditable."\*\*
+
+---
+
+Let me know if you want a challenge example related to **CI/CD, on-call incidents, Kubernetes, or monitoring setup** — I can customize one for you!
+
+
 
 
