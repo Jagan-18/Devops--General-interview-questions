@@ -1,6 +1,6 @@
 # Devops--General-interview-Q
 ---
-### As a DevOps Engineer, how do you work on assigned tasks?**
+### 1. As a DevOps Engineer, how do you work on assigned tasks?
 As a DevOps Engineer, I follow a structured approach:
 1. **Understand the Requirement**: I first clarify the task by reviewing tickets, documentation, or discussing with developers, QA, or product teams.
 2. **Plan the Approach**: I break down the task, identify tools or automation needed, and assess any risks or dependencies.
