@@ -35,6 +35,5 @@ This way, I ensure that any failure, especially during non-working hours, trigge
 
 ---
 
-✅ This shows real-world awareness, monitoring discipline, and reliability engineering mindset — perfect for a DevOps/SRE role. Let me know your CI/CD tool and I can tailor this answer exactly!
 
 
