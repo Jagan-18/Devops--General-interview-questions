@@ -18,7 +18,7 @@ A 403 error means **"Forbidden"** — the server understands the request but ref
 5. **Firewall/Security Groups**: Check if traffic is being blocked at the **NACL**, **Security Group**, or **WAF** level.
 6. **Application Logs**: Finally, I check app/server logs to get more specific error details.
 ---
-### 3. How would you set up notifications when a production pipeline fails?
+### 3. How would you set up notifications when a production pipeline fails. / How would you set up notifications when your production pipeline fails, especially during off-hours?
 **"To get alerts when a production pipeline fails, I integrate notification systems with my CI/CD tool.**
 For example, if I'm using **GitHub Actions, GitLab CI, or Jenkins**, I do the following:
 1. **Email Notifications**:
