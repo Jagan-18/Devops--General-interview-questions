@@ -44,13 +44,17 @@ This way, I ensure that any failure, especially during non-working hours, trigge
 - I'm proactive, reliable, and I focus on building systems that are **robust, repeatable, and easy to manage** — which directly supports faster, safer delivery for the team."
 
 ---
-
 ## 6. Imagine you are leading a team that is behind schedule on a critical project. How would you motivate your team to catch up while maintaining quality?
 - First, I would assess the situation to identify the cause of the delay—whether it's due to resource issues, technical problems, or unclear requirements. Once I know what's causing the delay, I would break down the remaining tasks into smaller, manageable goals with clear deadlines.
 - To keep the team aligned and focused, I’d hold daily stand-ups to quickly address any roadblocks. Communication is key here.
 - I’d also remind the team that while we’re working to catch up, quality is still a priority. We can use automation for testing to ensure we don’t skip important checks.
 - Finally, I’d keep morale high by recognizing the team's efforts and celebrating small wins to maintain motivation as we push to meet the deadlines.
 
+---
+## 7. You have a set timeline to deliver a project, but halfway through, the client requests significant changes. How would you handle this situation?
+1. If the client requests significant changes halfway through, I’d first assess how those changes impact the timeline and resources. Then, I’d discuss with the client to understand the urgency and feasibility of the changes.
+2. If the changes are necessary, I’d work with the team to re-prioritize tasks and update the project plan. I’d also adjust the timeline and keep the client informed about the impact on delivery.
+3. Finally, I’d make sure the team stays focused on delivering quality while managing the updated scope. Clear communication throughout the process is key to ensuring both the client’s needs and project deadlines are met
 
 
 
