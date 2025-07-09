@@ -45,6 +45,12 @@ This way, I ensure that any failure, especially during non-working hours, trigge
 
 ---
 
+## 6. Imagine you are leading a team that is behind schedule on a critical project. How would you motivate your team to catch up while maintaining quality?
+- First, I would assess the situation to identify the cause of the delay—whether it's due to resource issues, technical problems, or unclear requirements. Once I know what's causing the delay, I would break down the remaining tasks into smaller, manageable goals with clear deadlines.
+- To keep the team aligned and focused, I’d hold daily stand-ups to quickly address any roadblocks. Communication is key here.
+- I’d also remind the team that while we’re working to catch up, quality is still a priority. We can use automation for testing to ensure we don’t skip important checks.
+- Finally, I’d keep morale high by recognizing the team's efforts and celebrating small wins to maintain motivation as we push to meet the deadlines.
+
 
 
 
