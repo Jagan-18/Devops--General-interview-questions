@@ -76,7 +76,7 @@ This strategy ensures faster, more reliable software delivery while maintaining 
 
 ---
 ## 10. Tell me about a time you had to learn a new technology or process under a tight deadline. How did you approach it?
-**- In a previous role, I was asked to implement infrastructure as code using Terraform, which I hadn’t worked with before and the project deadline was tight. I immediately broke down the key concepts I needed to learn and focused on the most relevant parts, like resource creation, modules, and state management.**
+**In a previous role, I was asked to implement infrastructure as code using Terraform, which I hadn’t worked with before and the project deadline was tight. I immediately broke down the key concepts I needed to learn and focused on the most relevant parts, like resource creation, modules, and state management.**
 - I followed official docs, did hands-on practice in a sandbox environment, and referred to community examples to accelerate learning. Within a few days, I was able to provision infrastructure on AWS, integrate it into our CI/CD pipeline, and deliver the solution on time. This experience taught me how to learn efficiently under pressure while still delivering quality work.
 
 ---
