@@ -91,6 +91,11 @@ This strategy ensures faster, more reliable software delivery while maintaining 
 6. Agile helps me stay adaptive, deliver faster, and maintain high-quality infrastructure in real-time production environments.
 
 ---
-
+## 12. Tell me about a time you led a cross-functional DevOps initiative.
+**Answer structure (STAR):**
+1. **Situation:** “Our company wanted to reduce deployment time and manual intervention during feature releases.
+2. **Task:** “As the DevOps lead, I needed to design a CI/CD pipeline that integrated security scans, blue-green deployments, and monitoring.”
+3. **Action:** “I coordinated with developers, QA, security, and infrastructure teams. We chose Jenkins + Docker + Kubernetes + Sonatype. I created sprint tasks, ensured daily stand-ups, and communicated progress.”
+4. **Result:** “We reduced deployment times from hours to under 15 minutes, cut rollback incidents by 70%, and received positive feedback
 
 
