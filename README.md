@@ -107,19 +107,15 @@ This strategy ensures faster, more reliable software delivery while maintaining 
 ---
 ## 14. Can you pls explan the End-to-End DevOps Process & Tools?
 > "In my experience, the DevOps lifecycle is a continuous loop that integrates development and operations to deliver software faster and more reliably.
->  I follow a structured flow that includes planning, coding, building, testing, releasing, deploying, operating, and monitoring.
+>  I follow a structured flow that includes **planning, coding, building, testing, releasing, deploying, operating, and monitoring**.
+1. We start with **Planning**, where we define requirements and user stories using tools like **Jira** or **Confluence**.
+2. Then comes **Development**, where code is written and version-controlled using **Git**, hosted on platforms like **GitHub** or **Bitbucket**.
+3. For the **Build** stage, we use tools like **Jenkins** or **GitLab CI** to compile code and generate artifacts.
+4. These are then passed to the **Testing** phase, where we run automated tests using **Selenium**, **JUnit**, or **SonarQube** for code quality._
+5. Once validated, the code moves to the **Release** phase, where we prepare it for production using tools like **Spinnaker** or **GitHub Actions**. For **Deployment**, I’ve used **Docker** and **Kubernetes** with **Helm** charts to push applications to cloud environments like AWS or Azure. We also use **Terraform** or **Ansible** for infrastructure provisioning.
+6. After deployment, we enter the **Operate** phase, where we manage infrastructure and runtime using tools like **Prometheus**, **Grafana**, and **ELK Stack**. Finally, in the **Monitor** phase, we track performance, gather logs, and set up alerts to ensure system health and user satisfaction.
 
-_We start with **Planning**, where we define requirements and user stories using tools like **Jira** or **Confluence**. Then comes **Development**, where code is written and version-controlled using **Git**, hosted on platforms like **GitHub** or **Bitbucket**._
-
-_For the **Build** stage, we use tools like **Jenkins** or **GitLab CI** to compile code and generate artifacts. These are then passed to the **Testing** phase, where we run automated tests using **Selenium**, **JUnit**, or **SonarQube** for code quality._
-
-_Once validated, the code moves to the **Release** phase, where we prepare it for production using tools like **Spinnaker** or **GitHub Actions**. For **Deployment**, I’ve used **Docker** and **Kubernetes** with **Helm** charts to push applications to cloud environments like AWS or Azure. We also use **Terraform** or **Ansible** for infrastructure provisioning._
-
-_After deployment, we enter the **Operate** phase, where we manage infrastructure and runtime using tools like **Prometheus**, **Grafana**, and **ELK Stack**. Finally, in the **Monitor** phase, we track performance, gather logs, and set up alerts to ensure system health and user satisfaction._
-
-_This entire flow is automated and integrated into our CI/CD pipeline, enabling faster releases, reduced downtime, and better collaboration across teams. For example, in one project, I helped implement GitOps using **ArgoCD**, which allowed us to deploy changes automatically based on Git commits, improving deployment speed by 40%."_  
-
+This entire flow is automated and integrated into our CI/CD pipeline, enabling faster releases, reduced downtime, and better collaboration across teams. 
+- For example, in one project, I helped implement GitOps using **ArgoCD**, which allowed us to deploy changes automatically based on Git commits, improving deployment speed by 40%.  
 ---
-
-Would you like me to tailor this answer for a specific cloud platform like AWS or Azure? Or prep a version for a senior architect role? I’ve got plenty of variations to help you ace it! 🚀
 
