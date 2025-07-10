@@ -80,6 +80,17 @@ This strategy ensures faster, more reliable software delivery while maintaining 
 - I followed official docs, did hands-on practice in a sandbox environment, and referred to community examples to accelerate learning. Within a few days, I was able to provision infrastructure on AWS, integrate it into our CI/CD pipeline, and deliver the solution on time. This experience taught me how to learn efficiently under pressure while still delivering quality work.
 
 ---
+## 11. How do you implement Agile methodology in your daily work as a DevOps Engineer?
+"As a DevOps Engineer, I follow Agile methodology to ensure fast, reliable, and collaborative delivery of infrastructure and automation tasks.
+1. I work in **sprints**, usually 2 weeks long, where we plan and prioritize tasks like CI/CD improvements, infrastructure provisioning, and monitoring setup.
+2. Each day starts with a **daily stand-up**—a short sync with developers, testers, and product owners to share updates and resolve blockers.
+3. My tasks are broken down into **user stories** in tools like Jira.
+   - For example, if I need to automate EC2 provisioning using Terraform, I define it as a story with clear acceptance criteria. I focus on **continuous delivery**, ensuring that every change—whether it's a Jenkins pipeline update or a Docker image build—is tested and deployed smoothly.
+4. . Throughout the sprint, I collaborate closely with developers to integrate code, with QA to ensure test coverage, and with security teams to enforce compliance. I also use **feedback loops**—like post-deployment monitoring and incident reviews—to improve our processes.
+5. At the end of the sprint, we conduct a **retrospective** to discuss what went well and what can be improved. For example, in one sprint, we identified delays due to manual approvals, so I implemented automated Slack-based approval workflows using Jenkins and custom scripts.
+6. Agile helps me stay adaptive, deliver faster, and maintain high-quality infrastructure in real-time production environments.
+
+---
 
 
 
