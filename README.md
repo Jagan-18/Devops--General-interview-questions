@@ -97,5 +97,13 @@ This strategy ensures faster, more reliable software delivery while maintaining 
 2. **Task:** “As the DevOps lead, I needed to design a CI/CD pipeline that integrated security scans, blue-green deployments, and monitoring.”
 3. **Action:** “I coordinated with developers, QA, security, and infrastructure teams. We chose Jenkins + Docker + Kubernetes + Sonatype. I created sprint tasks, ensured daily stand-ups, and communicated progress.”
 4. **Result:** “We reduced deployment times from hours to under 15 minutes, cut rollback incidents by 70%, and received positive feedback
+---
+## 13. What KPIs do you track in a DevOps workflow?
+1. Deployment frequency
+2. Lead time for changes
+3. Change failure rate
+4. Mean time to recovery (MTTR)
+5. Code churn and review cycle time
+---
 
 
