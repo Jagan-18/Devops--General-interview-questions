@@ -106,8 +106,8 @@ This strategy ensures faster, more reliable software delivery while maintaining 
 5. Code churn and review cycle time
 ---
 ## 14. Can you pls explan the End-to-End DevOps Process & Tools?
-
-_"In my experience, the DevOps lifecycle is a continuous loop that integrates development and operations to deliver software faster and more reliably. I follow a structured flow that includes planning, coding, building, testing, releasing, deploying, operating, and monitoring._
+> "In my experience, the DevOps lifecycle is a continuous loop that integrates development and operations to deliver software faster and more reliably.
+>  I follow a structured flow that includes planning, coding, building, testing, releasing, deploying, operating, and monitoring.
 
 _We start with **Planning**, where we define requirements and user stories using tools like **Jira** or **Confluence**. Then comes **Development**, where code is written and version-controlled using **Git**, hosted on platforms like **GitHub** or **Bitbucket**._
 
