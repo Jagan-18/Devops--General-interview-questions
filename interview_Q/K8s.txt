@@ -1,0 +1,86 @@
+- How can a pod in one node communicate with a pod in a different node?
+- Is it possible to convert a public subnet in a VPC to a private subnet?
+- What is the process for using environment variables in a Jenkins pipeline?
+- How can you deploy two websites on an EC2 instance?
+- What strategies would you implement to manage pods when traffic increases on a Kubernetes cluster?
+- Deployment strategies in Kubernetes
+================================================================================================================
+
+1.    How do you create and run a container in Kubernetes?
+2.    What command would you use to deploy a new pod in Kubernetes?
+3.    How can you verify that a newly created pod is running correctly in Kubernetes?
+4.    What are some common issues you might encounter when spinning up a container in Kubernetes and how do you troubleshoot them?
+5.    How do you expose a container running in Kubernetes to external traffic?
+ 
+6.    What are taints and tolerations in Kubernetes and how do they work?
+7.    How can you use taints and tolerations to control pod placement on nodes?
+8.    What is the difference between NoSchedule, PreferNoSchedule, and NoExecute taints?
+9.    Can you describe a scenario where using taints and tolerations would be necessary?
+10. How do you apply a taint to a node and a toleration to a pod in Kubernetes?
+
+============================
+1.Explain the deployment manifest file?
+
+2.choreography vs orchestration in Kubernetes?
+
+3.what is the difference between stateless and stateful microservices?
+
+4.what is the role of a domain events in microservices?
+
+5.How the pods are communicating with each other?
+
+6.what is pod security policy?
+
+7.What is the Blue/Green Deployment Pattern?
+
+8.How do you secure microservices?
+
+9.what is service in Kubernetes? How many type are there?
+
+10.How does ingress help in Kubernetes?
+
+11.what is API versioning and why it is important in microservices?
+
+12.What are taints and tolerations in Kubernetes and how do they work?
+
+13.Handling Increased Traffic on Kubernetes Cluster?
+
+14.What are some common issues you might encounter when spinning up a container in Kubernetes?
+
+15.Comprehensive Backup Strategy for Kubernetes?
+
+=======================================================
+
+
+#Kubernetes
+In my recent interview for DevOps Engineer position questions asked:
+
+1.Explain the deployment manifest file?
+
+2.choreography vs orchestration in Kubernetes?
+
+3.what is the difference between stateless and stateful microservices?
+
+4.what is the role of a domain events in microservices?
+
+5.How the pods are communicating with each other?
+
+6.what is pod security policy?
+
+7.What is the Blue/Green Deployment Pattern?
+
+8.How do you secure microservices?
+
+9.what is service in Kubernetes? How many type are there?
+
+10.How does ingress help in Kubernetes?
+
+11.what is API versioning and why it is important in microservices?
+
+12.What are taints and tolerations in Kubernetes and how do they work?
+
+13.Handling Increased Traffic on Kubernetes Cluster?
+
+14.What are some common issues you might encounter when spinning up a container in Kubernetes?
+
+15.Comprehensive Backup Strategy for Kubernetes?

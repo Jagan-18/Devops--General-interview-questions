@@ -1,0 +1,62 @@
+1.  What are all the types of applications you have deployed?
+2.  How have you injected the secrets in ConfigMaps?
+3.  How do you find which pod is taking more system resources across nodes using kubectl?
+4.  How do you know which worker node is consuming more resources across the clusters using kubectl?
+5.  What are the steps for configuring Prometheus and Grafana for monitoring Kubernetes clusters?
+6.  If 20 pods are running, how do you visualize the metrics of these pods in Grafana?
+7.  What is Apache Kafka?
+8.  How do you set up a Docker Hub private registry and integrate it with a CI/CD pipeline? What is the procedure?
+9.  What is the difference between a hard link and a soft link?
+10. What is the use of the `break` command in shell scripting? In what scenarios have you used it?
+11. How do you count the number of "devops" words in 15 HTML files?
+12. What is the `terraform taint` command?
+13. What are the possible ways to secure a state file in Terraform.?
+14. If you provision 100 servers and someone deletes 50 VMs manually, what happens if you apply the `terraform apply` command?
+15. What is the syntax for `for_each` in Terraform?
+16. What are the advantages and disadvantages of multi-stage builds in Docker?
+17. How do you deploy containers on different hosts, not the same host, within a Docker cluster?
+18. If you have a Docker Compose setup, how do you deploy the web container on one host and the DB container on another host?
+19. What is the difference between bridge networking and host networking in Docker?
+20. How do you resolve merge conflicts?
+21. What command do you use to change the existing commit message?
+22. What is session affinity?
+23. What is pod affinity and its use case?
+24. What is the difference between pod affinity and pod anti-affinity?
+25. What are readiness and liveness probes?
+26. Write a simple Groovy pipeline for a Java Spring Boot application that waits for user input for approval to move to the next stage, with stages for checkout, build, push, and deploy?
+27. How do you export test reports in Jenkins?
+28. If 5 pods are running, how do you scale the number of pods to 10 using the command line in Kubernetes?
+
+=====================================================================================================================
+🚀 Mastering DevOps Interviews: 10 Real-Time Questions You Need to Know 🚀
+
+1) How do you handle rollbacks during a failed deployment?
+2) Explain the difference between continuous integration, continuous delivery, and continuous deployment.
+3) What strategies do you use to ensure high availability and reliability in a cloud environment?
+4) How do you monitor and troubleshoot performance issues in a CI/CD pipeline?
+5) Can you walk me through the process of setting up a Kubernetes cluster from scratch?
+6) What are the key differences between Docker and traditional virtual machines?
+7) How do you manage configuration and secrets in a multi-environment setup?
+8) Describe a challenging DevOps problem you’ve faced and how you resolved it.
+9) How do you ensure security in your CI/CD pipeline?
+10)What tools and practices do you use for infrastructure as code and why?
+
+=======================================================================================================================
+
+1.  How do you execute jobs in AWS?
+2.  What are Ansible roles, and how do you use them?
+3.  How do you ensure data persistence with Docker volumes?
+4.  What are the key differences between Docker and Kubernetes?
+5.  How do you securely store credentials in GitHub?
+6.  Where is the Jenkins file typically stored?
+7.  How is pull request approval managed in GitHub?
+8.  How do you execute a shell script within a Python script?
+9.  What is the master-slave architecture in Jenkins?
+10. How do you integrate LDAP with AWS and Jenkins?
+11. What are some key features of GitHub?
+12. What are some key features of Jenkins?
+13. What are the benefits and uses of CI/CD?
+14. What is a GitHub workflow, and how is it used?
+15. How do you handle merge conflicts in Git?
+16. What steps do you take when a build fails in Jenkins?
+

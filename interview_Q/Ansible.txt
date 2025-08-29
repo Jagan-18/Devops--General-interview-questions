@@ -1,0 +1,37 @@
+🚀 Top Scenario Based Interview Questions for ANSIBLE 🚀
+
+1. Playbook Creation and Execution ✨
+
+Q: Describe a scenario where you need to set up a web server with specific configurations. How would you write an Ansible playbook to accomplish this?
+
+A: To set up an Apache web server with specific configurations using Ansible, you would write a playbook that includes tasks to install Apache, copy configuration files, and ensure the service is running. An example playbook would include tasks for installing the Apache package, copying a custom configuration file using the `template` module, and ensuring the Apache service is started and enabled.
+
+
+2. Role Implementation✨
+
+Q: You need to deploy a three-tier application using Ansible roles. Describe how you would structure your roles and what each role would be responsible for.
+
+A:
+- Role 1: Database: This role would be responsible for installing and configuring the database server, managing database users and permissions, and ensuring the database service is running.
+- Role 2: Application Server: This role would handle installing application dependencies, deploying the application code, configuring application settings, and ensuring the application service is running.
+- Role 3: Web Server: This role would involve installing and configuring the web server, setting up virtual hosts and SSL certificates, configuring the web server to communicate with the application server, and ensuring the web server is running.
+
+
+3. Dynamic Inventory Management✨
+
+Q: Explain how you would use a dynamic inventory to manage instances in a cloud environment such as AWS.
+
+A: Using a dynamic inventory involves a script or plugin that queries the cloud provider for current instances and generates an inventory file on the fly. For AWS, this could involve using an AWS-specific inventory script that queries EC2 instances based on tags or other criteria, and then includes those instances in the inventory used by Ansible.
+
+
+ 4. Configuration Management✨
+
+Q: You need to manage configuration files on multiple servers. How would you use Ansible to ensure configurations are consistent and up to date?
+
+A: To manage configuration files, you can use the `template` module to deploy configuration files from templates. This allows you to dynamically generate configuration files based on variables and ensure that configurations are consistent across servers.
+
+5. Handling Failures and Rollbacks✨
+
+Q: Suppose a playbook execution fails on a specific task. How would you handle the failure and ensure the system returns to a stable state?
+
+A: To handle failures, you can use Ansible's error handling mechanisms such as failed_when and ignore_errors. Additionally, you can use block and rescue constructs to define tasks to run if a block of tasks fails, ensuring the system can recover or roll back to a stable state.

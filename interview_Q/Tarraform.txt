@@ -1,0 +1,40 @@
+🚀 Interview Questions for Terraform 🚀
+
+1. What is Terraform and why is it used?✨
+Answer: 
+Terraform is an open-source Infrastructure as Code (IaC) tool created by HashiCorp. It allows users to define and provision infrastructure using a high-level configuration language called HashiCorp Configuration Language (HCL). Terraform is used for:
+
+- Managing infrastructure as code.
+- Ensuring consistent and repeatable infrastructure deployments.
+- Automating provisioning and lifecycle management of cloud resources.
+- Creating reusable modules to manage infrastructure at scale.
+
+2. What is a Terraform provider?✨
+Answer: 
+A Terraform provider is a plugin that enables Terraform to interact with APIs of external services. Providers are responsible for understanding API interactions and exposing resources. Examples of providers include AWS, Azure, Google Cloud, and Kubernetes. Each provider has its own set of resources and data sources that Terraform can manage.
+
+3. Explain the concept of the Terraform state file.✨
+Answer: 
+The Terraform state file (`terraform.tfstate`) is a JSON file that keeps track of the current state of the infrastructure managed by Terraform. It is essential for:
+
+- Mapping Terraform configurations to real-world resources.
+- Tracking metadata, dependencies, and resource attributes.
+- Enabling incremental and efficient updates to the infrastructure.
+- Facilitating collaboration by storing state remotely (e.g., in an S3 bucket).
+
+4. How does Terraform handle dependencies?✨
+Answer: 
+Terraform automatically handles dependencies between resources using a built-in graph-based dependency management system. It creates a dependency graph to understand the relationships between resources, ensuring that resources are created, updated, or destroyed in the correct order. Users can also explicitly specify dependencies using the `depends_on` attribute.
+
+ 5. What is a Terraform module and how is it used?✨
+Answer: 
+A Terraform module is a container for multiple resources that are used together. Modules help organize and encapsulate configurations, making code reusable and maintainable. A module can be a single directory containing `.tf` files, and it can be reused by calling it from other configuration files. Modules can be sourced from local paths, version control systems, or Terraform Registry.
+
+6. How can you manage and store Terraform state files securely?✨
+Answer: 
+To manage and store Terraform state files securely:
+
+- Use remote backends like AWS S3, Azure Blob Storage, or Terraform Cloud to store state files.
+- Enable state file versioning and locking to prevent concurrent modifications.
+- Encrypt state files at rest and in transit using tools like AWS KMS or encryption options provided by the backend.
+- Use role-based access control (RBAC) to limit access to state files.

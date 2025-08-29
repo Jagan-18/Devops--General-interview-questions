@@ -1,0 +1,141 @@
+1. what is Linux.
+2.Differntiate Between Linux and Unix.
+3. Explain the file system Hierarchy in Linux.
+4. What is Shell in Linux.
+5. How do find the Files in Linux?
+6. Explain the use of Grep Command.
+7. What is Different Between Soft Link and Hard Link?
+8. How do you Manage Services in Linux?
+9 what is Difference between Shell Script and Programming languages.
+10. How do you check system Resource usage in Linux?
+11. What is a package Manager in Linux?
+12. Explain the of Chmod command?
+13. What is a Kernel in Linux?
+14. How do you archive and compress files in Linux?
+
+15. What is the different between a Process and Thread?
+16 How does the strace command help in debugging?
+17. Explain How C-groups(Control groups) are used in Linux?
+18. What is SE Linux and how does it enhance security?
+19. How do you Manage Kernel Modules in Linux? 
+20 Explain the Purpose of the "/proc" directory?
+    
+   ==> The '/proc' directory is a pseudo-filesystem that provides a mechanism to access process and kernel information. 
+   ==> It contains virtual files that represent system information such as CPU, Memory and configurations.
+
+21. How can you optimize the performance of a Linux System?
+
+    ==> Performance can be optimized by tuning kernel parameters (Using sysctl), Managing resource usage with cgroups, optimizing I/O scheduling, utilizing performance monitoring tools like top, iotop, htop and profiling applications using perf or strace. 
+
+22. what is the different between Hard and soft Real-time systems in Linux?
+        
+
+  ==> Hard Real-Time systems guarantee that critical tasks complete within a strict time constraint,
+  ==>  While systems prioritize completing tasks as soon as possible but do not guarantee strict timing.  
+
+
+23.How does the iptables command work in Linux?
+==> iptables is a command-line utility for configuring Linux kernel firewall implemented within the net-filter project.
+==> It allows administrators to set up, maintain, and inspect tables of IP packet filter rules, which control the flow of incoming and outgoing packets.
+
+24. what are namespaces in Linux and how are they used?
+==> Namespaces are a feature of the Linux kernel that isolate and virtualize system resources such as process IDs, Network interfaces, and file systems.
+==> They are fundamental for container technologies, allowing each container to have its own isolated environment.
+
+25. Explain the concept of load average in Linux?
+
+==> Load average represents the average number of processes in the runnable or uninterruptible state.
+==> It is usually displayed as three numbers, corresponding to the last 1, 5 and 15 minutes.
+==> A high load average indicates the system is under heavy load.
+
+26. How does the nice command affect process scheduling?
+==> The nice command changes the scheduling priority of a process.
+==> By default, processes start with a priority of 0, but nice can set a lower priority(Higher nice value), causing the process to receive less CPU time compared to others with higher priority (Lower nice value.)
+
+27. what is the role of the system init system in Linux?
+==>  systemd is an init system and system manager for Linux operating systems.
+==> It manages system startup and services, handling initialization tasks, dependency management, logging, and service monitoring.
+ 
+28. How do you create a swap file in Linux?
+29. What are the differences between ext4 and xfs file systems? 
+==> ext4 is a widely used Linux file system known for its simplicity and robustness.
+==> It supports large files and volumes, journaling and defragmentation.
+==> xfs is designed for high performance, scalability, and handling large files efficiently.
+==> It supports online resizing but not shrinking and has advanced features for parallel I/O.
+ 
+
+=====#####################================================
+Scenario:
+========
+1. You need to find out why a server is running slowly. what steps would you take?
+==>
+   1. Start by checking the system load with top or htop.
+   2. Look at CPU and identify any processes consuming excessive resources.
+   3. Use iostat and iotop to check disk I/O, free-m for memory usage, and df-h for disk space. check for any network issues using netstat or ss. 
+   4. Finally, review system logs in /var/log/ for any errors or warnings.  
+
+2. A user's home directory is filling up disk space on the root partition. How would you resolve this?
+==> 
+     1. Check the disk usage with du -sh /home/user to identify large file or directories.
+     2. If possible, move large files to another partition with more space using mv or rsync.
+     3. Alternatively, advise the user to delete or compress(tar, gzip) unnecessary files.
+----------------------------------------------------------
+
+3. You need to secure a web server against command vulnerabilities. What measures would you take.?
+==> 
+   1. Ensure all software is Up-to-date using the package manager(apt, yum).
+   2. Configure a firewall using iptables or firewalld.
+   3. Disable unnecessary services and remove default files.
+  4. Implement HTTPS using SSL/TLS certificates (Via Let's Encrypt or another CA.)
+  5. use tools like fail2ban to block malicious IPs and configure SE Linux or App Armor for enhanced security.
+----------------------------------------------------------
+4. The SSH service on your server is being targeted by brute force attacks. what steps would you take to mitigate this.?
+====> 
+     1. Change the default SSH port from 22 to something less common in /ect/ssh/sshd_config.
+     2. Implement Key-based authentication and disable password  authentication.
+     3. Use fail2ban to block Ips after a certain number of failed login attempts.
+    4. Allow only specific IP address to connect using iptables or ufw.
+----------------------------------------------------------
+5. you need to automate backups of a directory to a remote server. How would you do it?
+
+===> 1. Use rsync for efficient file transfers. Set up SSH key-based authentication between the local and remote servers.
+2. Write a script to run rsync with the desired options and schedule it using cron by adding a cron jobs (crontab -e)
+
+
+------------------------------------------------------
+6. You need to create a new user and ensure they have no shell access. How would you do this?
+   ===> Use the useradd command with the -s option to set the user's shell to /sbin/nologin or /bin/false.
+====. Example: useradd -s /sbin/nologin username.
+
+--------------------------------------------------------
+7. Your server is running out memory and starting to swap heavily . what actions would you take?
+
+#1. Identify memory-hogging processes using  top or ps aux --sort=-%mem.
+#2. Consider stopping or restarting these processes.
+#3. Increases swap space by creating a swap file if needed (dd if=/dev/zeroof=/swapfile bs=1G count=4, mkswap/swapfile, swapon/swapfile)
+#4. Optimize application memory usage or add more physical memory to the server.
+
+
+-----------------------------------------------
+8. A service needs to start on boot . How do you ensure this?
+==> #1. Enable the service using systemctl enable servicename.
+==> #2 This creates the necessary symlinks for the service to start on boot.
+==> verify with systectl is-enables servicename
+
+---------------------------------------------------------
+9. Your web server is showing a 502 Bad Gateway error. what steps do you take to troubleshoot?
+==>
+#1. Check the status and logs of both the webserver(eg. Nginx) and the backend service it proxies to (eg., PHP-FPM)
+#2. Verify the backend service is running and reachable. check configuration files for any misconfigurations.
+#3. Ensure sufficient resources (Memory, CPU) are available.
+ 
+-----------------------------------------------------------10. You need to compile and install software from source. what steps do you follow?
+==> #1. Download the source code tarball. Extract is using tar -xzf filename.tar.gz.
+==> #2 Change into the extracted directory.
+==> #3 Read the README or INSTALL file for specific instructions.
+==> 4. Typically  run ./configure, make, and make install.
+    
+
+
+
+
